@@ -1,12 +1,12 @@
 import random 
 
 
-class RockPaperScissors():
-    def __init__(self):
-        self.guess = input()
-
-    def get_computer_choice(self):
-        self.computer_guess = input()
+def get_computer_choice():
+    computer_guess = ['Rock', 'Paper', 'Scissors']
+    return random.choice(computer_guess)
     
-    def get_user_choice(self):
-        self.user_choice = input()
+def get_user_choice():
+    user_guess = input('Please enter a guess; either Rock, Paper, Scissors: ')
+    return user_guess
+
+#def 
