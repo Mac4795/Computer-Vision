@@ -24,7 +24,7 @@ def play():
     print(get_winner(computer, player))
 
     play_again = input('Would you like to play again? yes or no: ').lower()
-    if play_again != "yes":
+    if play_again != 'yes':
         print('Bye for now!')
     else:
         play()
