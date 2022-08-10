@@ -10,9 +10,11 @@ Rock, paper, scissors using Teachable Machine to collect images to create a mode
 ## Creating the game
 - Once the model has been downloaded to a .h5 file, the game play can be written. 
 - Using python to create a simple rock, paper, scissors game where the computers choice is a random guess and you are able to input your guess before the computers guess is revealed. 
->>> python 
+``` python 
 def play():
     player = get_user_choice()
     computer = get_computer_choice()
     print(get_winner(computer, player))
->>>
+```
+- After testing the game, it was clear that the code was not recognising the user/player input when the first letter of the word was not capitalised.
+- A simple adjustment of using the ``` .capitalize() ``` method to ensure that what ever the input from the use is, the first letter will be capitalised. 
