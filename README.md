@@ -1,4 +1,6 @@
 # Computer Vision - Rock, Paper, Scissors
+*Work in Progress*
+
 Rock, paper, scissors using Teachable Machine to collect images to create a model that recognises hand gestures.
 
 ## Creating the Model
